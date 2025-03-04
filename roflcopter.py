@@ -1,4 +1,4 @@
-#RUN THIS ON CMD
+#RUN THIS ON CMD: The famous funny animated roflcopter from the 2000's
 
 import time
 import os
@@ -27,8 +27,8 @@ copter3 = '''
 t = 0.05
 while True:
     print(copter2)
-    time.sleep(t)
     os.system('cls')
+    time.sleep(t)
     print(copter3)
-    time.sleep(t)
     os.system('cls')
+    time.sleep(t)

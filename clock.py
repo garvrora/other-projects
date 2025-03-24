@@ -35,8 +35,10 @@ while True:
         print(f'{h} : {m_zero}{m} : {s_zero}{s}',end = '\r')
     else:
         print(f'{h}   {m_zero}{m}   {s_zero}{s}',end = '\r')
-        
-    winsound.Beep(12000, 400)
+
+    frequency = 12000 #in hertz
+    duration = 400 #in milliseconds
+    winsound.Beep(frequency, duration)
     
     t2 = time.time()
 

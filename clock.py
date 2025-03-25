@@ -35,7 +35,6 @@ while True:
 
     #delta is the time taken by 1 while loop iteration to execute, and this is lesser than 1 second.
     #to make sure that this iteration is exactly one second, the remaining time delay is added to each iteration of the loop
-    
     delta = t2 - t1
     if delta < 1: time.sleep(1 - delta)
         
